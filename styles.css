@@ -1,0 +1,58 @@
+/*!
+ * Start Bootstrap - The Big Picture HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+#pageTitle{
+
+    font-size: 5em;
+
+}
+
+.navbar-brand{
+
+    font-family: 'Playfair Display', sans-serif;
+
+}
+
+#mainImage{
+    background: #000 url("Images/piperExample.jpg") center center;
+    background-size: cover;
+    padding: 0;
+}
+
+#mainNav{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#nav.affix {
+    top: 0;
+    width: 100%;
+    height: 5%;
+}
+
+.bg-white{
+    background-color: white;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.bg-yellow{
+    background-color: antiquewhite;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.row{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+}
+h1{
+    font-family: 'Playfair Display', sans-serif;
+}
