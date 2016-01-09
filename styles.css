@@ -1,5 +1,10 @@
-#pageTitle{
+#mainContent{
+    background: transparent;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
 
+#pageTitle{
     font-size: 5em;
 
 }

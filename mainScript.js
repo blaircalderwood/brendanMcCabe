@@ -9,7 +9,7 @@ window.onload = function(){
 function resizeWindow(){
 
     $("#mainImage").height($(window).height() - $("#mainNavbar").height());
-
+    $("#mainContent").css("padding-top", $('#mainImage').height())
 }
 
 //Affix navbar when scrolling past
