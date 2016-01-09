@@ -14,14 +14,18 @@
     background: #000 url("Images/piperExample.jpg") center center;
     background-size: cover;
     padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: -10;
+}
+
+#overlay{
+    background-size: cover;
+    padding: 0;
 }
 
 #mainNav{
     position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 0;
-    margin: 0;
 }
 
 #nav.affix {
@@ -51,3 +55,4 @@
 h1{
     font-family: 'Playfair Display', sans-serif;
 }
+

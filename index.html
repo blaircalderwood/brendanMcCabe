@@ -29,51 +29,46 @@
 
 </head>
 
-<body data-spy="scroll" data-target="mainNavbar" data-offset="10">
+<body data-spy="scroll" data-target="#nav" data-offset="10">
 
 <div class="jumbotron" id="mainImage">
-    <div class="container special">
+    <div class="container special" id="homePage">
         <h1 id="pageTitle">Brendan McCabe</h1>
 
-        <p>Bagpiper available for a variety of events including weddings and funerals.</p>
+        <p>Glasgow based bagpiper available for a variety of events including weddings and funerals.</p>
     </div>
 </div>
 
 <!-- Navigation -->
 
-<div class="container.fluid" data-spy="affix" id="nav">
-    <div class="navbar navbar-inverse" id="mainNav">
-        <div class="navbar-inner">
-            <div class="container">
-                <div class="span12">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse"
-                            data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#mainImage">Brendan McCabe</a>
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#mainImage">Home</a></li>
-                        <li>
-                            <a href="#about" class="page-link">About</a>
-                        </li>
-                        <li>
-                            <a href="#services" class="page-link">Services</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+<div class="container.fluid" id="nav">
+    <div class="navbar navbar-inverse navbar-fixed-bottom" id="mainNav">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#navbarCollapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brendan McCabe</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                <li><a href="#about" class="page-link">About</a></li>
+                <li><a href="#services" class="page-link">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
     </div>
 </div>
 
-<div>
-    <div class="container.fluid bg-white" style="padding-bottom: 10%; padding-top: 10%" id="about">
+<div style="background: transparent; padding-top: 43.5%; padding-bottom: 0; margin-bottom: 0;">
+
+    <!--div class="container.fluid" style="padding-top: 50%; padding-bottom: 0; margin: 0;"></div-->
+
+    <div class="container.fluid bg-white" id="about">
 
         <div class="row">
 
@@ -212,12 +207,14 @@
             </div>
         </div>
     </div>
-</div>
 
-<footer>
-    <p class="pull-right"><a href="#">Back to top</a></p>
-    <p>Website created by <a href="www.blaircalderwood.co.uk">Blair Calderwood</a></p>
-</footer>
+    <footer style="background: white; padding-bottom: 1%">
+        <p class="pull-right"><a href="#">Back to top</a></p>
+
+        <p>Website created by <a href="www.blaircalderwood.co.uk">Blair Calderwood</a></p>
+    </footer>
+
+</div>
 
 </body>
 
